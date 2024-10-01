@@ -13,3 +13,5 @@ fun main() {
         println("$str is not a palindrome")
     }
 }
+
+// madam is a palindrome

@@ -14,3 +14,4 @@ fun main() {
     }
     println(charCount)
 }
+// {V=1, a=3, r=1, n=1, s=1, i=1}
