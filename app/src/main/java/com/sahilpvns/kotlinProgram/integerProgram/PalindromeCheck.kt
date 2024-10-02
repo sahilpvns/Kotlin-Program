@@ -11,9 +11,9 @@ fun main() {
         temp /= 10
     }
     if (num == rev) {
-        println("$num is a palindrome")
+        println("Palindrome")
     } else {
-        println("$num is not a palindrome")
+        println("Not a Palindrome")
     }
 
 }
