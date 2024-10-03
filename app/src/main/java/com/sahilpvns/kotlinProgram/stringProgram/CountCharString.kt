@@ -3,7 +3,7 @@ package com.sahilpvns.kotlinProgram.stringProgram
 
 // Count character in String
 fun main() {
-    val str = "Varanasi"
+    val str = "Google"
     val charCount = mutableMapOf<Char, Int>()
     for (char in str) {
         if (charCount.containsKey(char)) {

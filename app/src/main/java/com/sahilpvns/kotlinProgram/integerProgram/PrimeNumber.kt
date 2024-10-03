@@ -13,6 +13,8 @@ fun main() {
         }
         if (flag == 0) {
             println("$i is a prime number")
+        } else {
+            println("$i is not a prime number")
         }
     }
 
