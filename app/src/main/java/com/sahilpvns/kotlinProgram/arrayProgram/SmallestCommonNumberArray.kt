@@ -18,3 +18,5 @@ fun findSmallestCommonNumber(arrays: List<List<Int>>): Int? {
     }
     return null
 }
+
+// Output: 3

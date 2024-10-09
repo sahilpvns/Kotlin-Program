@@ -11,3 +11,5 @@ fun main() {
     }
     println(largest)
 }
+
+// Output: 9

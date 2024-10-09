@@ -9,3 +9,5 @@ fun main() {
     }
     println("The sum of the array is: $sum")
 }
+
+// The sum of the array is: 15

@@ -12,3 +12,5 @@ fun main() {
     println(smallest)
 
 }
+
+// Output: 1

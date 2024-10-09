@@ -13,3 +13,5 @@ fun main() {
     }
     println("Reversed number: $reversed")
 }
+
+// Reversed number: 54321

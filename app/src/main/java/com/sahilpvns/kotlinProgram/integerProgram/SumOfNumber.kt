@@ -12,5 +12,5 @@ fun main() {
         temp /= 10
     }
     println("The sum of the digits is: $sum")
-
 }
+// The sum of the digits is: 15

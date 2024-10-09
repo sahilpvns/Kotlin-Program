@@ -17,3 +17,6 @@ fun main() {
     println("Smallest word: $smallest")
     println("Largest word: $largest")
 }
+
+// Smallest word: a
+// Largest word: string

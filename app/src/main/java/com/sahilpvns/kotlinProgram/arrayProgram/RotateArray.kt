@@ -23,5 +23,7 @@ fun rotateArray(arr: IntArray, k: Int): IntArray {
     return rotatedArray
 }
 
+// Original Array: 1, 2, 3, 4, 5
+
 
 

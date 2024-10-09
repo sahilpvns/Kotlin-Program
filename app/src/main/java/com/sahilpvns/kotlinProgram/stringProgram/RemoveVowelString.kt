@@ -7,3 +7,5 @@ fun main(){
     val newString = originalString.filter { it !in vowel }
     println(newString)
 }
+
+// Ggl

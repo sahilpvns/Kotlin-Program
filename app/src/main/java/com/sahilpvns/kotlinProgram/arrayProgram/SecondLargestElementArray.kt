@@ -17,3 +17,4 @@ fun main() {
     }
     println(secondLargest)
 }
+// Output: 9

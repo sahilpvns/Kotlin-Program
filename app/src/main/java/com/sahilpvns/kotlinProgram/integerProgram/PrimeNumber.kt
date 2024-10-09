@@ -17,6 +17,8 @@ fun main() {
             println("$i is not a prime number")
         }
     }
-
-
 }
+
+// 2 is a prime number
+// 3 is a prime number
+// 4 is not a prime number

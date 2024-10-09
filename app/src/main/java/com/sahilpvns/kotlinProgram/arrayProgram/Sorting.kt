@@ -16,4 +16,6 @@ fun main() {
     println(arr.contentToString())
 }
 
+// Output: [1, 2, 5, 8, 9]
+
 

@@ -10,5 +10,8 @@ fun main() {
     b = a - b // b = 10
     a = a - b // a = 20
     println("After swapping: a = $a, b = $b")
-
 }
+
+// Before swapping: a = 10, b = 20
+// After swapping: a = 20, b = 10
+
