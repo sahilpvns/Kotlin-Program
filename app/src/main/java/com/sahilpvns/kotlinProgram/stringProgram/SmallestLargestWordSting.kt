@@ -7,10 +7,10 @@ fun main() {
     var largest = ""
     val words = str.split(" ")
     for (word in words) {
-        if (word.length < smallest.length) {
+        if (smallest.isEmpty() || word.length < smallest.length) {
             smallest = word
         }
-        if (word.length > largest.length) {
+        if (largest.isEmpty() || word.length > largest.length) {
             largest = word
         }
     }
