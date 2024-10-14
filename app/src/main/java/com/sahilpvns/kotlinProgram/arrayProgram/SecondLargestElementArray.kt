@@ -3,7 +3,7 @@ package com.sahilpvns.kotlinProgram.arrayProgram
 
 // Program to find Second largest element in an Array
 fun main() {
-    val arr = arrayOf(5, 2, 8, 1, 9)
+    val arr = arrayOf(5, 2, 8, 1, 9, 7)
     var largest = arr[0]
     var secondLargest = arr[0]
 
@@ -17,4 +17,5 @@ fun main() {
     }
     println(secondLargest)
 }
-// Output: 9
+
+// Output: 8
