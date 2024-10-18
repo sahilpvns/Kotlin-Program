@@ -4,9 +4,9 @@ package com.sahilpvns.kotlinProgram.arrayProgram
 fun main() {
     val numbers = arrayOf(5, 2, 9, 1, 8)
     var largest = numbers[0]
-    for (num in numbers) {
-        if (num > largest) {
-           largest = num
+    for (i in numbers) {
+        if (i > largest) {
+           largest = i
         }
     }
     println(largest)
