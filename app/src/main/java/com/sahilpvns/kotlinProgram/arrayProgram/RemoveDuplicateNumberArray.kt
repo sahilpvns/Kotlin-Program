@@ -1,7 +1,7 @@
 package com.sahilpvns.kotlinProgram.arrayProgram
 
 
-// Remove duplicate elements from Sorted Array in kotlin
+// Remove duplicate elements Array in kotlin
 fun main() {
     val arr = intArrayOf(1, 1, 2, 2, 3, 4, 4, 5)
     var j = 0
