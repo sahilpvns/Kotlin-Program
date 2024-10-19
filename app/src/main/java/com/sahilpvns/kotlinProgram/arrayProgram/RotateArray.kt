@@ -7,8 +7,8 @@ fun main() {
     val k = 2
     val rotatedArray = rotateArray(originalArray, k)
 
-    println("Original Array: ${originalArray.joinToString(", ")}")
-    println("Rotated Array: ${rotatedArray.joinToString(", ")}")
+    println(originalArray.joinToString(" "))
+    println(rotatedArray.joinToString(" "))
 }
 
 fun rotateArray(arr: IntArray, k: Int): IntArray {
