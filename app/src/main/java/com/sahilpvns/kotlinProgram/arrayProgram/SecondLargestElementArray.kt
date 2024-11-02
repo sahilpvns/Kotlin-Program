@@ -7,7 +7,7 @@ fun main() {
     var largest = arr[0]
     var secondLargest = arr[0]
 
-    for (i in 1 until arr.size) {
+    for (i in 1..<arr.size) {
         if (arr[i] > largest) {
             secondLargest = largest
             largest = arr[i]
