@@ -3,16 +3,16 @@ package com.sahilpvns.kotlinProgram.arrayProgram
 
 // Program to find Second largest element in an Array
 fun main() {
-    val arr = arrayOf(5, 2, 8, 1, 9, 7)
-    var largest = arr[0]
-    var secondLargest = arr[0]
+ val arr = arrayOf(1, 5, 7, 2, 9)
+    var largest = Int.MIN_VALUE
+    var secondLargest = Int.MIN_VALUE
 
-    for (i in 1..<arr.size) {
-        if (arr[i] > largest) {
+    for (num in arr) {
+        if (num > largest) {
             secondLargest = largest
-            largest = arr[i]
-        } else if (arr[i] > secondLargest && arr[i] != largest) {
-            secondLargest = arr[i]
+            largest = num
+        } else if (num > secondLargest) {
+            secondLargest = num
         }
     }
     println(secondLargest)
