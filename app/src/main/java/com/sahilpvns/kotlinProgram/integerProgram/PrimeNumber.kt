@@ -1,6 +1,6 @@
 package com.sahilpvns.kotlinProgram.integerProgram
 
-// Print all prime numbers upto the given number in Kotlin
+// Print all prime numbers up to the given number in Kotlin
 fun main() {
     val number = 20
     for (i in 2..number) {

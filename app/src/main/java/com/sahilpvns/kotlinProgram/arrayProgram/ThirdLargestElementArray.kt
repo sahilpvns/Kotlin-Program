@@ -1,6 +1,6 @@
 package com.sahilpvns.kotlinProgram.arrayProgram
 
-// Third largest element in an array
+// Third-largest element in an array
 fun main() {
     val arr = arrayOf(5, 2, 8, 1, 9)
     var first = Int.MIN_VALUE

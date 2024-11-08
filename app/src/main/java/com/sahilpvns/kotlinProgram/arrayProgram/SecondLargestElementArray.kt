@@ -1,7 +1,7 @@
 package com.sahilpvns.kotlinProgram.arrayProgram
 
 
-// Program to find Second largest element in an Array
+// Program to find Second-largest element in an Array
 fun main() {
  val arr = arrayOf(1, 5, 7, 2, 9)
     var largest = Int.MIN_VALUE
