@@ -18,4 +18,4 @@ fun main() {
     println(secondLargest)
 }
 
-// Output: 8
+// Output: 7
