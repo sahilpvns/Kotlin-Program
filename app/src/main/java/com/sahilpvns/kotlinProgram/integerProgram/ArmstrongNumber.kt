@@ -13,11 +13,7 @@ fun main() {
         sum += digit.toDouble().pow(3.0).toInt()
         temp /= 10
     }
-    if (sum == num) {
-        println("$num is an Armstrong number")
-    } else {
-        println("$num is not an Armstrong number")
-    }
+    if (sum == num) println("$num is an Armstrong number") else println("$num is not an Armstrong number")
 
 }
 

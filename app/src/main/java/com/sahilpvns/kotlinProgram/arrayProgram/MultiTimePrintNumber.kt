@@ -15,3 +15,9 @@ fun main() {
         }
     }
 }
+
+/*
+2 appears 4 times
+3 appears 2 times
+4 appears 2 times
+*/

@@ -5,7 +5,7 @@ package com.sahilpvns.kotlinProgram.integerProgram
 fun main() {
     var a = 10
     var b = 20
-    println("Before swapping: a = $a, b = $b")
+
     a = a + b // a = 30
     b = a - b // b = 10
     a = a - b // a = 20

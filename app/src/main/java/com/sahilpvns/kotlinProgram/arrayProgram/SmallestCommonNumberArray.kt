@@ -10,8 +10,7 @@ fun main() {
 fun findSmallestCommonNumber(arrays: List<List<Int>>): Int? {
     if (arrays.isEmpty()) return null
     val sortedArrays = arrays.map { it.sorted() }
-    val firstArray = sortedArrays[0]
-    for (num in firstArray) {
+    for (num in sortedArrays[0]) {
         if (sortedArrays.all { num in it }) {
             return num
         }

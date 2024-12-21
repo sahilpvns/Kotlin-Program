@@ -10,8 +10,11 @@ fun main() {
             arr[j++] = arr[i]
         }
     }
+
     arr[j++] = arr[arr.size - 1]
     for (i in 0 until j) {
         print("${arr[i]} ")
     }
 }
+
+// output: 1 2 3 4 5
