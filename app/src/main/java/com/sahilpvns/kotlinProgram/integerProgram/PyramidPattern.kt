@@ -12,6 +12,26 @@ fun main() {
 }
 
 /*
+val rows = 3 // Number of rows in the pyramid
+var number = 18 // Starting number
+
+for (i in 0 until rows) {
+    // Print leading spaces for alignment
+    for (space in 0 until i) {
+        print(" ") // Three spaces for alignment
+    }
+
+    // Print the numbers in the current row
+    for (j in i until rows) {
+        print(number.toString().padEnd(3, ' '))
+        number -= 3 // Decrement by 3
+    }
+    println() // Move to the next line
+}
+
+*/
+
+/*
 
 18 15 12
 9 6
