@@ -2,19 +2,16 @@ package com.sahilpvns.kotlinProgram.arrayProgram
 
 
 // Remove duplicate elements Array in kotlin
+fun removeDuplicatesWithSet(arr: IntArray): IntArray {
+    val set = arr.toSet()
+    return set.toIntArray()
+}
+
 fun main() {
     val arr = intArrayOf(1, 1, 2, 2, 3, 4, 4, 5)
-    var j = 0
-    for (i in 0 until arr.size - 1) {
-        if (arr[i] != arr[i + 1]) {
-            arr[j++] = arr[i]
-        }
-    }
-
-    arr[j++] = arr[arr.size - 1]
-    for (i in 0 until j) {
-        print("${arr[i]} ")
-    }
+    val uniqueArr = removeDuplicatesWithSet(arr)
+    println(uniqueArr.joinToString(", "))
 }
+
 
 // output: 1 2 3 4 5
