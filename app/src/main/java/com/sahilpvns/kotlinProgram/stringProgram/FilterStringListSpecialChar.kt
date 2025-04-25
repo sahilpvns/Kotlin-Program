@@ -1,4 +1,4 @@
-package com.sahilpvns.kotlinProgram.arrayProgram
+package com.sahilpvns.kotlinProgram.stringProgram
 
 // Filter String list containing special char
 fun main() {
