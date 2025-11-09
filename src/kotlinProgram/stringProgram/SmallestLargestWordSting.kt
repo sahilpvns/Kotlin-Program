@@ -7,16 +7,18 @@ fun main() {
     var largest = ""
     val words = str.split(" ")
     for (word in words) {
+        // Smallest Number
         if (smallest.isEmpty() || word.length < smallest.length) {
             smallest = word
         }
+        // Largest Number
         if (largest.isEmpty() || word.length > largest.length) {
             largest = word
         }
     }
-    println("Smallest word: $smallest")
-    println("Largest word: $largest")
+    println(smallest)
+    println(largest)
 }
 
-// Smallest word: a
-// Largest word: string
+// a
+// string
