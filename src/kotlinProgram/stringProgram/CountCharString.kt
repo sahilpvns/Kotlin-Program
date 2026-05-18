@@ -5,15 +5,17 @@ import kotlin.text.iterator
 
 // Count character in String
 fun main() {
-    val str = "Google"
-    val charCount = mutableMapOf<Char, Int>()
-    for (char in str) {
-        if (charCount.containsKey(char)) {
-            charCount[char] = charCount[char]!! + 1
-        } else {
-            charCount[char] = 1
-        }
+
+    val name = "Varanasi"
+    val charCountMap = mutableMapOf<Char, Int>()
+
+    for (ch in name) {
+        charCountMap[ch] = charCountMap.getOrDefault(ch, 0) + 1
     }
-    println(charCount)
+
+    for ((char, count) in charCountMap) {
+        println("$char -> $count")
+    }
 }
+
 // {V=1, a=3, r=1, n=1, s=1, i=1}
